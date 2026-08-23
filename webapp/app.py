@@ -4,6 +4,7 @@ from PIL import Image
 import streamlit as st
 from ultralytics import YOLO
 from streamlit_cropper import st_cropper
+from src.logo_matcher import LogoMatcher
 
 from src.image_processor import preprocess_for_aircraft_detection
 from src.metadata_worker import extract_gps_and_time
