@@ -54,8 +54,9 @@ pip install -r requirements.txt
 Launch the Streamlit web interface using:
 
 Bash
+```text
 streamlit run webapp/app.py
-
+```
 🛠️ Tech Stack
 Language: Python 3.10+
 
