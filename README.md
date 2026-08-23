@@ -70,15 +70,6 @@ Language: Python 3.10+
 Frameworks & Libraries: PyTorch, Ultralytics YOLOv8, OpenCV, Pillow, Streamlit
 
 Pre-trained Weights: Real-ESRGAN (RealESRGAN_x4plus.pth), ResNet18 (Torchvision)
-
-
 ---
 
-### **Cách push file `README.md` mới cập nhật lên GitHub:**
 
-Mở Terminal tại thư mục dự án và chạy 3 lệnh sau:
-
-```bash
-git add README.md
-git commit -m "docs: Update README with installation guide and project structure"
-git push origin main
