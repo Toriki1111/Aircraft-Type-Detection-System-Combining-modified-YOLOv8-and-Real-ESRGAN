@@ -1,14 +1,11 @@
-# Môi trường ảo & Cache
 .venv/
 __pycache__/
 *.pyc
 
-# Tập dữ liệu ảnh nặng
 dataset/
 dataset_v2/
 runs/
 
-# Chỉ bỏ qua các file base weights không dùng đến
 yolo26n.pt
 yolov8l.pt
 best_v1.pt
