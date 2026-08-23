@@ -72,4 +72,15 @@ Frameworks & Libraries: PyTorch, Ultralytics YOLOv8, OpenCV, Pillow, Streamlit
 Pre-trained Weights: Real-ESRGAN (RealESRGAN_x4plus.pth), ResNet18 (Torchvision)
 ---
 
+Lỗi thường gặp khi sử dụng:
+.venv\Lib\site-packages\basicsr\data\degradations.py
+```text
+from torchvision.transforms.functional_tensor import rgb_to_grayscale
+```
+đổi thành: 
+```text
+from torchvision.transforms.functional import rgb_to_grayscale (Chỉ đơn giản là bỏ chữ _tensor đi là được)
+```
+
+
 
