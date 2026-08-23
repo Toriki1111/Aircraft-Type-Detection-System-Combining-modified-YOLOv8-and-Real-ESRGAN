@@ -76,7 +76,7 @@ Lỗi thường gặp khi cài:
 ```text
 ModuleNotFoundError: No module named 'torchvision.transforms.functional_tensor'
 ```
-.venv\Lib\site-packages\basicsr\data\degradations.py
+truy cap vo: .venv\Lib\site-packages\basicsr\data\degradations.py (VScode,app bạn xài,...)
 ```text
 from torchvision.transforms.functional_tensor import rgb_to_grayscale
 ```
