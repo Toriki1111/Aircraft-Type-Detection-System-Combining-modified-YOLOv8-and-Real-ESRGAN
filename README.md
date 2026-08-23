@@ -34,6 +34,13 @@ Do-an-nganh/
 git clone [https://github.com/Toriki1111/Research-and-Development-of-Aircraft-Type-Detection-System-Combining-modified-YOLOv8-and-Real-ESRGAN.git](https://github.com/Toriki1111/Research-and-Development-of-Aircraft-Type-Detection-System-Combining-modified-YOLOv8-and-Real-ESRGAN.git)
 cd Research-and-Development-of-Aircraft-Type-Detection-System-Combining-modified-YOLOv8-and-Real-ESRGAN
 
+Cài PyTorch (Có hỗ trợ CUDA / GPU)
+
+Bash
+```text
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+(Nếu máy đó chỉ chạy CPU, đổi cu121 thành cpu)
+```
 2. Set Up Virtual Environment
 # Windows (PowerShell)
 ```text
