@@ -36,17 +36,20 @@ cd Research-and-Development-of-Aircraft-Type-Detection-System-Combining-modified
 
 2. Set Up Virtual Environment
 # Windows (PowerShell)
+```text
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-
+```
 # Linux / macOS
+```text
 python3 -m venv .venv
 source .venv/bin/activate
-
+```
 3. Install Dependencies
+```text
 pip install --upgrade pip
-pip install -r requirements.txt
-
+pip install -r requirements.txt 
+```
 💻 Running the Application
 Launch the Streamlit web interface using:
 
