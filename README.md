@@ -26,7 +26,8 @@ Do-an-nganh/
 │   │   └── radar_api.py        # Radar / Flight lookup service
 │   ├── app.py                  # Main Streamlit web application
 │   └── RealESRGAN_x4plus.pth   # Pre-trained Real-ESRGAN weights
-├── best_v2.pt              # Best trained YOLOv8 model weights
+├── best_v1.pt              # Best trained version1 model weight
+├── best_v2.pt              # Best trained version 2 model weight
 ├── requirements.txt        # Python dependencies
 └── README.md
 ```
@@ -39,7 +40,7 @@ Cài PyTorch (Có hỗ trợ CUDA / GPU)
 Bash
 ```text
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-(Nếu máy đó chỉ chạy CPU, đổi cu121 thành cpu)
+(If your com has only CPU change cu121 to cpu)
 ```
 2. Set Up Virtual Environment
 # Windows (PowerShell)
@@ -69,7 +70,7 @@ Language: Python 3.10+
 
 Frameworks & Libraries: PyTorch, Ultralytics YOLOv8, OpenCV, Pillow, Streamlit
 
-Pre-trained Weights: Real-ESRGAN (RealESRGAN_x4plus.pth), ResNet18 (Torchvision)
+Pre-trained Weights: Real-ESRGAN (RealESRGAN_x4plus.pth)
 ---
 
 Lỗi thường gặp khi cài:
