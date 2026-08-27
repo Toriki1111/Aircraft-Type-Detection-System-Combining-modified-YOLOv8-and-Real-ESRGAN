@@ -35,7 +35,7 @@ Do-an-nganh/
 git clone [https://github.com/Toriki1111/Research-and-Development-of-Aircraft-Type-Detection-System-Combining-modified-YOLOv8-and-Real-ESRGAN.git](https://github.com/Toriki1111/Research-and-Development-of-Aircraft-Type-Detection-System-Combining-modified-YOLOv8-and-Real-ESRGAN.git)
 cd Research-and-Development-of-Aircraft-Type-Detection-System-Combining-modified-YOLOv8-and-Real-ESRGAN
 
-Cài PyTorch (Có hỗ trợ CUDA / GPU)
+Intall PyTorch (do support CUDA / GPU)
 
 Bash
 ```text
@@ -73,15 +73,15 @@ Frameworks & Libraries: PyTorch, Ultralytics YOLOv8, OpenCV, Pillow, Streamlit
 Pre-trained Weights: Real-ESRGAN (RealESRGAN_x4plus.pth)
 ---
 
-Lỗi thường gặp khi cài:
+Usual ERR meet when install:
 ```text
 ModuleNotFoundError: No module named 'torchvision.transforms.functional_tensor'
 ```
-truy cap vo: .venv\Lib\site-packages\basicsr\data\degradations.py (VScode,app bạn xài,...)
+Access into: .venv\Lib\site-packages\basicsr\data\degradations.py (VScode,app bạn xài,...)
 ```text
 from torchvision.transforms.functional_tensor import rgb_to_grayscale
 ```
-đổi thành: 
+change to: 
 ```text
 from torchvision.transforms.functional import rgb_to_grayscale (Chỉ đơn giản là bỏ chữ _tensor đi là được)
 ```
