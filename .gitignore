@@ -8,5 +8,5 @@ runs/
 
 yolo26n.pt
 yolov8l.pt
-best_v1.pt
+
 logo_matcher.py
