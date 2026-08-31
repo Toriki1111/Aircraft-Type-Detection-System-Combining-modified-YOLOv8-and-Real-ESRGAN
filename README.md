@@ -21,7 +21,6 @@ Do-an-nganh/
 ├── webapp/                 # Streamlit application source
 │   ├── src/
 │   │   ├── image_processor.py  # Real-ESRGAN handler
-│   │   ├── logo_matcher.py     # ResNet18 vector matching
 │   │   ├── metadata_worker.py  # Flight details processing
 │   │   └── radar_api.py        # Radar / Flight lookup service
 │   ├── app.py                  # Main Streamlit web application
