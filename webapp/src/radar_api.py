@@ -10,7 +10,7 @@ def fetch_live_flights(lat, lon, radius_km=5):
         lat_f = float(str(lat).replace(',', '.')) #lat vi do
         lon_f = float(str(lon).replace(',', '.')) #lon kinh do
         # 1. Lấy vùng quét từ thư viện
-        bounds = fr_api.get_bounds_by_point(lat_f, lon_f, radius_km * 1000) #vi don vi goc trong thu vien yeu cau la m nen phai * 1000
+        bounds = fr_api.get_bounds_by_point(lat_f, lon_f, radius_km * 1000) #don vi goc trong thu vien yeu cau la m nên phải quy đổi km sang m
         
         # 2. Tự cấu hình request thay vì gọi fr_api.get_flights()
         # Header này ép Server KHÔNG gửi gzip, chỉ gửi text thường
