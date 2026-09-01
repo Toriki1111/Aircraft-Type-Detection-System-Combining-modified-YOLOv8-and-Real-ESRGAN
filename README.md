@@ -82,7 +82,7 @@ from torchvision.transforms.functional_tensor import rgb_to_grayscale
 ```
 change to: 
 ```text
-from torchvision.transforms.functional import rgb_to_grayscale (Chỉ đơn giản là bỏ chữ _tensor đi là được)
+from torchvision.transforms.functional import rgb_to_grayscale (basically just delete _tensor and you are good to go)
 ```
 
 
