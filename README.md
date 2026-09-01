@@ -7,7 +7,7 @@
 ## 📌 Features
 
 * **Real-ESRGAN Integration**: Super-resolution ($x4$) pre-processing to restore blurry or low-resolution images.
-* **YOLOv8 Detection**: Custom-trained YOLOv8 (`best_v2.pt`) for accurate aircraft detection and model classification.
+* **YOLOv8 Detection**: Custom-trained YOLOv8 (`best_v1.pt`,`best_v2.pt`) for accurate aircraft detection and model classification.
 * **ResNet18 Logo Matching**: Fallback feature-extraction pipeline using Cosine Similarity to verify airline logos independently.
 * **Offline-capable & Real-time UI**: Built-in Streamlit web app providing instant flight lookup and metadata aggregation.
 
