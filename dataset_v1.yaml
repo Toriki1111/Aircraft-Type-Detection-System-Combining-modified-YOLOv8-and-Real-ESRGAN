@@ -1,6 +1,5 @@
-# Đường dẫn tuyệt đối đến thẳng folder chứa data sạch của bạn
+# Đường dẫn tuyệt đối đến thẳng folder chứa data
 path: dataset/3_dataset_yolo
-
 # Đường dẫn tương đối tính từ thư mục 'path' ở trên
 train: train/images
 val: val/images
