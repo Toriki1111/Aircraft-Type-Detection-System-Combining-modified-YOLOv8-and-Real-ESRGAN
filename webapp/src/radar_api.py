@@ -7,8 +7,8 @@ def fetch_live_flights(lat, lon, radius_km=5):
     """Tìm các chuyến bay đang hoạt động quanh tọa độ GPS trong bán kính vùng quét"""
     try:
         fr_api = FlightRadar24API()
-        lat_f = float(str(lat).replace(',', '.')) #lat vi do
-        lon_f = float(str(lon).replace(',', '.')) #lon kinh do
+        lat_f = float(str(lat).replace(',', '.')) #lat: vi do
+        lon_f = float(str(lon).replace(',', '.')) #lon: kinh do
         # 1. Lấy vùng quét từ thư viện
         bounds = fr_api.get_bounds_by_point(lat_f, lon_f, radius_km * 1000) #don vi goc trong thu vien yeu cau la m nên phải quy đổi km sang m
         
