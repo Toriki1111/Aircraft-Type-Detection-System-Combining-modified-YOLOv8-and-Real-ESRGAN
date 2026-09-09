@@ -76,6 +76,7 @@ Usual error meet when install:
 ```text
 ModuleNotFoundError: No module named 'torchvision.transforms.functional_tensor'
 ```
+Fix: 
 Access into: .venv\Lib\site-packages\basicsr\data\degradations.py (VScode,app bạn xài,...)
 ```text
 from torchvision.transforms.functional_tensor import rgb_to_grayscale
