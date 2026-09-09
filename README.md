@@ -89,6 +89,6 @@ Presentation in Vietnamese
 ```text
 https://canva.link/bow7fawxquqb7kp
 ```
-Plan in futur
+Plan in future
 ---
 Not making logo matcher yet
