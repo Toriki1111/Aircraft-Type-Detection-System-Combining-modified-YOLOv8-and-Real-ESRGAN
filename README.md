@@ -72,7 +72,7 @@ Frameworks & Libraries: PyTorch, Ultralytics YOLOv8, OpenCV, Pillow, Streamlit
 Pre-trained Weights: Real-ESRGAN (RealESRGAN_x4plus.pth)
 ---
 
-Usual ERR meet when install:
+Usual error meet when install:
 ```text
 ModuleNotFoundError: No module named 'torchvision.transforms.functional_tensor'
 ```
