@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
-if __name__ == '__main__':
-    model = YOLO('yolov8l.pt')
+if __name__ == "__main__":
+    model = YOLO("yolov8l.pt")
     results = model.train(
         data='dataset_v1.yaml',       
         epochs=100,                # Tăng lên 100 epochs để AI học kỹ hơn, không lo thiếu thời gian
