@@ -1,11 +1,9 @@
 from ultralytics import YOLO
 
 if __name__ == "__main__":
-    # 1. Load file mô hình best.pt đã train xong của bạn
-    model = YOLO("webapp/best_v1.pt")  # Điền đúng đường dẫn file best.pt của bạn
 
-    # 2. Đánh giá trên tập TEST
-    # split='test' ép YOLO dùng đường dẫn test: trong file data.yaml
+    model = YOLO("webapp/best_v1.pt")
+    
     results = model.val(
         data="dataset_v1.yml",  # Đường dẫn tới file data.yaml của dự án
         split="test",  # Kích hoạt đánh giá trên tập Test
@@ -17,7 +15,6 @@ if __name__ == "__main__":
         plots=True,  # Tự động vẽ các biểu đồ PR-curve, Confusion Matrix...
     )
 
-    # 3. In các chỉ số quan trọng ra màn hình Terminal
     print("\n" + "=" * 50)
     print("📊 KẾT QUẢ ĐÁNH GIÁ TRÊN TẬP TEST:")
     print("=" * 50)
