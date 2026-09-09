@@ -14,7 +14,6 @@ CSV_FILES = {
 SRC_IMAGE_DIR = "dataset/fgvc-aircraft-2013b/data/images" # Thư mục chứa ảnh gốc vừa tải
 OUTPUT_DIR = "dataset_v2" # Output folder mới
 
-# 2. Load model yolov8l.pt gốc để detect Bounding Box
 detector = YOLO("yolov8l.pt")
 
 print(f"🚀 Bắt đầu dùng 'yolov8l.pt' để Auto-Label vị trí máy bay -> Thư mục '{OUTPUT_DIR}'...\n")
