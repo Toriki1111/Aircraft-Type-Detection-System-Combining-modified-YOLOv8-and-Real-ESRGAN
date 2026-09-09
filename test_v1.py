@@ -12,7 +12,7 @@ if __name__ == "__main__":
         project="runs/test_results",  # Thư mục lưu kết quả
         name="test_airbus_boeing",  # Tên folder kết quả
         save_json=True,  # Lưu lại JSON metrics nếu cần
-        plots=True,  # Tự động vẽ các biểu đồ PR-curve, Confusion Matrix...
+        plots=True,  # Auto making PR-curve, Confusion Matrix...
     )
 
     print("\n" + "=" * 50)
