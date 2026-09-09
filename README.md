@@ -10,7 +10,7 @@
 * **YOLOv8 Detection**: Custom-trained YOLOv8 (`best_v1.pt`,`best_v2.pt`) for accurate aircraft detection and model classification.
 * **ResNet18 Logo Matching**: Fallback feature-extraction pipeline using Cosine Similarity to verify airline logos independently.
 * **Offline-capable & Real-time UI**: Built-in Streamlit web app providing instant flight lookup and metadata aggregation.
-
+* **Dataset: https://www.kaggle.com/datasets/seryouxblaster764/fgvc-aircraft?resource=download
 ---
 
 ## 🛠️ Project Structure
