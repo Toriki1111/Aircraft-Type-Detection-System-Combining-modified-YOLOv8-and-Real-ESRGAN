@@ -84,6 +84,9 @@ change to:
 ```text
 from torchvision.transforms.functional import rgb_to_grayscale (basically just delete _tensor and you are good to go)
 ```
-
+Presentation in Vietnamese:
+```text
+https://canva.link/bow7fawxquqb7kp
+```
 
 
