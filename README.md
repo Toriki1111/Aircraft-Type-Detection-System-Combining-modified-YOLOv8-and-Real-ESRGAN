@@ -67,7 +67,7 @@ streamlit run webapp/app.py
 🛠️ Tech Stack
 Language: Python 3.10+
 
-Frameworks & Libraries: PyTorch, Ultralytics YOLOv8, OpenCV, Pillow, Streamlit, gfpgan,git+https://github.com/xinntao/Real-ESRGAN.git
+Frameworks & Libraries: PyTorch, Ultralytics YOLOv8, OpenCV, Pillow, Streamlit, gfpgan, git+https://github.com/xinntao/Real-ESRGAN.git
 
 Usual error meet when install:
 ---
