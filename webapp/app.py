@@ -55,7 +55,7 @@ else:
         type=["jpg", "jpeg", "png"],
     )
 
-# TỰ ĐỘNG REFRESH: Nếu đổi ảnh hoặc chụp ảnh mới, xóa bộ nhớ cũ ngay lập tức
+# tự động refresh
 if uploaded_file != st.session_state.last_uploaded_file:
     st.session_state.ai_results = None
     st.session_state.radar_flights = None
@@ -122,7 +122,7 @@ if uploaded_file is not None:
             st.text_input("Sân bay theo dõi:", value="SGN").strip().upper()
         )
 
-#NÚT KÍCH HOẠT PHÂN TÍCH
+#nút thực hiện phân tích
 if st.button(
     "Kích Hoạt Phân Tích", type="primary", key="btn_run_analysis"
 ):
@@ -197,7 +197,7 @@ if st.button(
             except Exception as e:
                 st.error(f"Lỗi AI: {e}")
 
-# --- HIỂN THỊ DỮ LIỆU KẾT QUẢ ---
+# Hiến thị kết quả
 if st.session_state.ai_results is not None:
     if st.session_state.analyzed_image is not None:
         st.image(
@@ -322,7 +322,7 @@ if st.session_state.ai_results is not None:
 
         total_matches = len(departures) + len(arrivals)
 
-        # XỬ LÝ THÔNG BÁO VÀ RENDER LOGIC CHÍNH XÁC
+        # xử lý thông báo và render logic
         if is_filter_by_ai and not has_ai_detection:
             st.warning(
                 "⚠️ AI không tìm thấy máy bay nào trong ảnh nên không thể lọc theo nhận diện. "
